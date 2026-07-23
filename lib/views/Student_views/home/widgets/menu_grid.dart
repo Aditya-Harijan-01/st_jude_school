@@ -162,7 +162,7 @@ class _MenuGridState extends State<MenuGrid> {
                 ),
                 SizedBox(width: 10.w),
                 Text(
-                  "Modern High School, Guwahati",
+                  "St. Jude School",
                   style: TextStyle(
                     color: CustomColor.colorWhite.withOpacity(0.9),
                     fontSize: 16.sp,

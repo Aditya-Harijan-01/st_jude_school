@@ -1,6 +1,6 @@
 class ConstantText {
   static const String schoolName = "St. Francis De Sales School";
-  static const String welcomeText = "Modern High School\nGuwahati";
+  static const String welcomeText = "St. Jude School";
   static const String inputLabel = "Phone number or userId";
   static const String passwordLabel = "Password";
   static const String confirmPasswordLabel = "Confirm Password";

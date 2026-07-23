@@ -42,7 +42,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCA3680y15IQWs5-e4AVOQUXektRrcDUFk',
-    appId: '1:313268404073:android:3c8bca8fc9bf4f7d4a47f8',
+    appId: '1:313268404073:android:057df8a0d2b3540d4a47f8',
     messagingSenderId: '313268404073',
     projectId: 'ednect-modernhs',
     storageBucket: 'ednect-modernhs.firebasestorage.app',
@@ -50,38 +50,38 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCnGwIMWTs1mdHkJOOJCIA3xgxPGNpE2fM',
-    appId: '1:313268404073:ios:f27956314a59d2e84a47f8',
+    appId: '1:313268404073:ios:e9bf2d92707966074a47f8',
     messagingSenderId: '313268404073',
     projectId: 'ednect-modernhs',
     storageBucket: 'ednect-modernhs.firebasestorage.app',
-    iosBundleId: 'com.ednect.modernhs',
+    iosBundleId: 'com.ednect.stjudeschool',
   );
-
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAJdhHqfjItE6dWI4qEzEOvGhs9N7OzCt4',
-    appId: '1:519788502113:web:08deb48681443bb95a9e20',
-    messagingSenderId: '519788502113',
-    projectId: 'ednect-holychild-bijni',
-    authDomain: 'ednect-holychild-bijni.firebaseapp.com',
-    storageBucket: 'ednect-holychild-bijni.firebasestorage.app',
+    apiKey: 'AIzaSyDIIymcEF0GUHc-ILyOJp8ziS2OTCayMHg',
+    appId: '1:313268404073:web:1cdc53e1e749f9d94a47f8',
+    messagingSenderId: '313268404073',
+    projectId: 'ednect-modernhs',
+    authDomain: 'ednect-modernhs.firebaseapp.com',
+    storageBucket: 'ednect-modernhs.firebasestorage.app',
+    measurementId: 'G-XV6X5GLW04',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDoLUIDUtFGGfkqQSyYLRRHEU3IcB7OqtQ',
-    appId: '1:519788502113:ios:0c939bc129d8e50e5a9e20',
-    messagingSenderId: '519788502113',
-    projectId: 'ednect-holychild-bijni',
-    storageBucket: 'ednect-holychild-bijni.firebasestorage.app',
-    iosBundleId: 'com.example.ednectHolichildBijni',
+    apiKey: 'AIzaSyCnGwIMWTs1mdHkJOOJCIA3xgxPGNpE2fM',
+    appId: '1:313268404073:ios:256c1e179b8ca0324a47f8',
+    messagingSenderId: '313268404073',
+    projectId: 'ednect-modernhs',
+    storageBucket: 'ednect-modernhs.firebasestorage.app',
+    iosBundleId: 'com.example.stJudeSchool',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAJdhHqfjItE6dWI4qEzEOvGhs9N7OzCt4',
-    appId: '1:519788502113:web:ac9982091558d2465a9e20',
-    messagingSenderId: '519788502113',
-    projectId: 'ednect-holychild-bijni',
-    authDomain: 'ednect-holychild-bijni.firebaseapp.com',
-    storageBucket: 'ednect-holychild-bijni.firebasestorage.app',
+    apiKey: 'AIzaSyDIIymcEF0GUHc-ILyOJp8ziS2OTCayMHg',
+    appId: '1:313268404073:web:0b0e8f16b010bc704a47f8',
+    messagingSenderId: '313268404073',
+    projectId: 'ednect-modernhs',
+    authDomain: 'ednect-modernhs.firebaseapp.com',
+    storageBucket: 'ednect-modernhs.firebasestorage.app',
+    measurementId: 'G-2X4K56L900',
   );
-
 }

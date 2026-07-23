@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "313268404073",
+    "project_id": "ednect-modernhs",
+    "storage_bucket": "ednect-modernhs.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313268404073:android:3c8bca8fc9bf4f7d4a47f8",
+        "android_client_info": {
+          "package_name": "com.ednect.modernhs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA3680y15IQWs5-e4AVOQUXektRrcDUFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313268404073:android:057df8a0d2b3540d4a47f8",
+        "android_client_info": {
+          "package_name": "com.ednect.stjudeschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA3680y15IQWs5-e4AVOQUXektRrcDUFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313268404073:android:5f463958776be2994a47f8",
+        "android_client_info": {
+          "package_name": "com.example.modern_high_school_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA3680y15IQWs5-e4AVOQUXektRrcDUFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
