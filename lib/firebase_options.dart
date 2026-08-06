@@ -47,7 +47,6 @@ class DefaultFirebaseOptions {
     projectId: 'ednect-modernhs',
     storageBucket: 'ednect-modernhs.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCnGwIMWTs1mdHkJOOJCIA3xgxPGNpE2fM',
     appId: '1:313268404073:ios:e9bf2d92707966074a47f8',

@@ -1,6 +1,6 @@
 class ApiConfig {
   // static const String baseUrl = 'https://apiv2.realitypublicschool.in/api';
-  static const String baseUrl = 'https://api.mhsguwahati.in/api';
+  static const String baseUrl = 'https://api.stjudedibrugarh.org/api';
 }
 
 

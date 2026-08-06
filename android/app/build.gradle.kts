@@ -1,3 +1,19 @@
+import java.util.Properties
+import java.io.FileInputStream
+
+// Load .env file
+val envFile = rootProject.file(".env")
+val envProperties = Properties()
+if (envFile.exists()) {
+    envProperties.load(FileInputStream(envFile))
+}
+
+val keystoreProperties = Properties()
+val keystorePropertiesFile = rootProject.file("key.properties")
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+}
+
 plugins {
     id("com.android.application")
     // START: FlutterFire Configuration
@@ -16,6 +32,7 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+        isCoreLibraryDesugaringEnabled = true
     }
 
     kotlinOptions {
@@ -33,15 +50,32 @@ android {
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        create("release") {
+            keyAlias = keystoreProperties.getProperty("keyAlias")
+            keyPassword = keystoreProperties.getProperty("keyPassword")
+            storeFile = keystoreProperties.getProperty("storeFile")?.let { file(it) }
+            storePassword = keystoreProperties.getProperty("storePassword")
+        }
+    }
+
+
     buildTypes {
-        release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+        getByName("release") {
+            signingConfig = signingConfigs.getByName("release")
         }
     }
 }
 
 flutter {
     source = "../.."
+}
+
+
+dependencies {
+    // Add core library desugaring dependency
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+    
+    // Add multidex if your app exceeds the 64K method limit
+    implementation("androidx.multidex:multidex:2.0.1")
 }
